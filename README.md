@@ -1,34 +1,55 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+
+# [Weframe](https://subid-das-weframe.vercel.app/)
+
+![](https://raw.githubusercontent.com/itsme-Subid/Weframe/main/preview.webp)
+![](https://img.shields.io/github/languages/top/itsme-Subid/Weframe?style=for-the-badge)
+![](https://img.shields.io/github/languages/count/itsme-Subid/Weframe?style=for-the-badge)
+![](https://img.shields.io/github/languages/code-size/itsme-Subid/Weframe?style=for-the-badge)
+![](https://img.shields.io/github/repo-size/itsme-Subid/Weframe?style=for-the-badge)
+![](https://img.shields.io/github/last-commit/itsme-Subid/Weframe?style=for-the-badge)
+![](https://img.shields.io/github/commit-activity/w/itsme-Subid/Weframe?style=for-the-badge)
+
+</div>
+
+Welcome to the Weframe repository! Weframe is a visually stunning website built using Next.js, TypeScript and Tailwind CSS. The project is a front-end development endeavor and can be found on [GitHub](https://github.com/itsme-Subid/Weframe).
 
 ## Getting Started
 
-First, run the development server:
+To get started, you can simply clone this repository and install the dependencies.
+
+### Cloning the Repository
+
+To clone the repository, you will need to have git installed on your machine. Once you have those, you can use the following commands:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/itsme-Subid/Weframe.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To run the project, you will need to have Node.js and pnpm or yarn or npm installed on your machine. Once you have those, you can use the following commands:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+cd Weframe
+pnpm install
+pnpm run dev
+```
 
-## Learn More
+or, if you are using yarn:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cd Weframe
+yarn
+yarn run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+or, if you are using npm:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+cd Weframe
+npm install
+npm run dev
+```
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This will start the development server and you should be able to see the website by visiting http://localhost:3000 in your browser.
