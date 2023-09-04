@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 const Progress = React.forwardRef<
   React.ElementRef<typeof ProgressPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof ProgressPrimitive.Root>
->(({ className, foreground, value, ...props }, ref) => (
+>(({ className, value, ...props }, ref) => (
   <ProgressPrimitive.Root
     ref={ref}
     className={cn(
@@ -21,7 +21,7 @@ const Progress = React.forwardRef<
       className={`h-full w-full flex-1 rounded-full transition-all`}
       style={{
         transform: `translateX(-${100 - (value || 0)}%)`,
-        backgroundColor: foreground,
+        backgroundColor: props.foreground,
       }}
     />
   </ProgressPrimitive.Root>
